@@ -26,7 +26,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ConstrainedBox、SizedBox'),
+        title: Text('ConstrainedBox、SizedBox(HYT)'),
       ),
       body: MyHomeContent(),
     );
@@ -47,9 +47,9 @@ class _MyHomeContentState extends State<MyHomeContent> {
     return Column(
       //mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        const Text(
-          'HAHAHAHA',
-        ),
+        /*onst Text(
+          'HAHAHAHA好ok',
+        ),*/
         ConstrainedBox(
           constraints:
               BoxConstraints(minWidth: double.infinity, minHeight: 50.0),
