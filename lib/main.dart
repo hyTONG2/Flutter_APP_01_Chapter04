@@ -47,16 +47,21 @@ class _MyHomeContentState extends State<MyHomeContent> {
     return Column(
       //mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        /*onst Text(
+        /*const Text(
           'HAHAHAHA好ok',
         ),*/
-        ConstrainedBox(
+        /*ConstrainedBox(
           constraints:
               BoxConstraints(minWidth: double.infinity, minHeight: 50.0),
           child: Container(
             height: 5.0,
             child: redBox,
           ),
+        ),*/
+        SizedBox(
+            width: 80.0,
+            height: 80.0,
+          child:redBox,
         ),
       ],
     );
